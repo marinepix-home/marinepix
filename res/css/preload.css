@@ -1,0 +1,21 @@
+body:before {
+	content:
+	url("../selsey/content/bin/images/thumb/IMG_4331.jpg")
+	url("../egypt2010/content/bin/images/thumb/CRW_3604.jpg")
+	url("../egypt2010_part2/content/bin/images/thumb/CRW_3960.jpg")
+	url("../sealife/content/bin/images/thumb/IMG_0591.jpg")
+	url("../brighton/content/bin/images/thumb/marinepix_aw_066.jpg")
+	url("../lanzarote2009/content/bin/images/thumb/marinepix_uw_071.jpg")
+	url("../philippines/content/bin/images/thumb/marinepix_uw_080.jpg")
+	url("../elgouna/content/bin/images/thumb/Wreck_GiannisD.Red_Sea_1_.jpg")
+	url("../thailand/content/bin/images/thumb/marinepix_aw_044.jpg")
+	url("../seals/content/images/thumb/IMG_1649.jpg")
+	url("../whirlwind2010/content/bin/images/thumb/IMG_9900.jpg")
+	url("../grandseaserpent2010/content/bin/images/thumb/IMG_5311.jpg")
+	url("../nuweiba/content/images/thumb/IMG_8737.jpg")
+	url("../longexposure/content/images/thumb/IMG_9528.jpg")
+	url("../borderlands/content/images/thumb/IMG_0730.jpg")
+	url("../bali/content/images/thumb/IMG_5789.jpg")
+	url("../bonfire/content/images/thumb/IMG_6583.jpg")
+	display:none;
+}

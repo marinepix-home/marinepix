@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+.goleft .goright {
+	cursor:pointer;
+	position:absolute;
+	top:0px;
+	bottom:40px;
+	widows:100px;
+	z-index:120;
+}
+
+.goleft:hover {
+	background: none repeat scroll 0% 0% rgba(255,255,255,0.5);
+}
+
+
+.cycle-slideshow{
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 40px;
+}
+
+.cycle-next, .cycle-prev{
+	cursor: pointer;
+	position: absolute;
+	top: 0px;
+	bottom: 40px;
+	width: 100px;
+	z-index: 120;
+}
+
+.cycle-prev:hover, .cycle-next:hover {
+	background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.5);
+}
+
+.cycle-next{
+	right: 0px;
+}

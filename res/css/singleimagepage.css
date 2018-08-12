@@ -1,0 +1,143 @@
+@charset "utf-8";
+.livingroompreview {
+	background-image:url(/images/plainwallsofa2.jpg);
+	background-size:contain;
+	position:absolute;
+	left:30px;
+	top:150px;
+	width:484px;
+	height:680px
+}
+
+.mainimageholder {
+	position: absolute;
+	top: 300px;
+	left: 572px;
+	width: auto;
+}
+.mainimageholder > img {
+	width:500px;
+	box-shadow:10px 20px 30px #000;
+}
+.mediachoice {
+	position:absolute;
+	left:573px;
+	top:150px;
+	width:auto;
+	box-shadow:none;
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;
+	font-size:0.8em;
+	font-variant:small-caps;
+	letter-spacing:1px;
+}
+.slidercontrol {
+	display:block;
+	position:absolute;
+	bottom:-40px;
+	width: 100%;
+	font-family:Verdana, Geneva, sans-serif;
+/*	margin:0px !important;
+*/}
+.previewimage {
+	display:block;
+	margin:100px auto 0 auto;
+}
+.mediaselector {
+	display:inline-block;
+	float:left;
+	border:1px solid #888;
+	padding:5px;
+	margin: 0 20px 10px 0;
+	background-color:white;
+	cursor:pointer;
+}
+.mediaselector img {
+	width:150px;
+	height:100px;
+}
+
+#slider1 {
+	width:150px;
+	padding:0px;
+}
+
+.rollover {
+	display:block;
+	left:0px;
+	width:150px;
+	height:100px;
+}
+
+.photorollover {
+	background: url('/images/photopaperpreview.jpg') 0 0;
+}
+.photorollover:hover {
+	background: url('/images/photopaperpreview.jpg') -150px 0;
+}
+.acrylicrollover {	
+	background: url('/images/acrylicpreview.jpg') 0 0;
+}
+.acrylicrollover:hover {	
+	background: url('/images/acrylicpreview.jpg') -150px 0;
+}
+.aluminiumrollover {
+	background: url('/images/aluminiumpreview.jpg') 0 0;
+}
+.aluminiumrollover:hover {
+	background: url('/images/aluminiumpreview.jpg') -150px 0;
+}
+
+
+input[type=range]{
+    -webkit-appearance: none;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 1px solid #888;
+    height: 25px;
+    width: 25px;
+    border-radius: 25%;
+    background: #ddd;
+    margin-top: -4px;
+	box-shadow:inset 12px 12px 15px 0px #ccc;
+
+}
+input[type=range]::-moz-range-thumb {
+    border: 1px solid #888;
+    height: 23px;
+    width: 23px;
+    border-radius: 25%;
+    background: #fff;
+	box-shadow:inset 12px 12px 15px 0px #ccc;
+}
+input[type=range]::-ms-track {
+    height: 6px;
+    background: transparent;
+    border-color: transparent;
+    border-width: 10px 0;
+    color: transparent;
+	vertical-align:bottom;
+}
+input[type=range]::-ms-fill-lower {
+    background: #777;
+    border-radius: 10px;
+}
+input[type=range]::-ms-fill-upper {
+    background: #ddd;
+    border-radius: 10px;
+}
+input[type=range]::-ms-thumb {
+    border: 1px solid #888;
+    height: 23px;
+    width: 23px;
+    border-radius: 25%;
+    background: #fff;
+	box-shadow:inset 12px 12px 15px 0px #ccc;
+}
+input[type=range]:focus::-ms-fill-lower {
+    background: #888;
+}
+input[type=range]:focus::-ms-fill-upper {
+    background: #ccc;
+}

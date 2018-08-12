@@ -1,0 +1,294 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width">
+<TITLE>MarinePix               Underwater Photography - Astrophotography Tips</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="http://www.marinepix.co.uk/res/css/slideshow.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Rosario|Overlock|Buda:300' rel='stylesheet' type='text/css' />
+<link href="http://www.marinepix.co.uk/res/css/responsivemenus.css" rel="stylesheet" type="text/css" />
+<link rel="image_src" href="http://www.marinepix.co.uk/images/astro1.jpg" />
+<meta property="og:title" content="MarinePix" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.marinepix.co.uk/astrophotographytips.shtml" />
+<meta property="og:image" content="http://www.marinepix.co.uk/images/astro1.jpg" />
+<meta property="og:site_name" content="MarinePix" />
+<meta property="fb:app_id" content="223065654378498" />
+<meta property="fb:admins" content="601087173" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-46728061-1', 'marinepix.co.uk');
+  ga('send', 'pageview');
+</script>
+<link href="astrocontents.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<?php include("subpageheader.php");?>
+<div class="abscentre"> 
+  <div style="display:block;">
+    <div id="blogcontent" class="gradient"> 
+      <!-- content here -->
+                            
+                            <a name="contents" id="contents"></a>
+                            <div class="title">Astrophotography</div>
+                            <div class="intro">
+                              <p>Our sun is one of about 400 billion stars in our galaxy, the Milky Way. The majestic arc of light formed by the stars in the Milky Way is one of the most wonderous things in nature and with ever more sophisticated cameras it's becoming increasingly straightforward to capture in digital form.<br>
+                                I wanted to give a brief idea of how to acheive a photograph of the stars in the night-sky including, if you wish, the glowing band of the Milky Way.<br>
+  <br>
+                              Knowing a little about the layout of our galaxy will help... </p>
+                              <p>The 400 billion stars are arranged in a kind of disc shape with the majority of them being near the centre. The density of stars decreases towards the edges. Our Solar system lies away from the centre but still some considerable distance from the outer edge. When you look at the arc of the milkyway, you're looking across the plane of the galaxy. Since there are more stars at the centre, that area will be brighter however, you should still be able to make out the band of stars even if you're facing away from galactic centre, it will just be slightly fainter.</p>
+                              <p>&nbsp;</p>
+                              <p>&nbsp;</p>
+
+</div>
+                            <div class="contents">
+                            <p><a href="#Planning">Planning Your Astro-Shoot</a></p>
+                            <ul>
+                            <li>Software</li>
+							<li>Locations<ul><li>Scouting</li></ul></li>
+                            <li>Finding Focus</li>
+                            </ul>
+                            
+                            <p><a href="#Gear">Gear Needed</a></p>
+                            <ul>
+                            <li>Camera</li>
+                            <li>Lens</li>
+                            <li>Tripod</li>
+                            <li>Head Torch</li>
+                            <li>Optional Extras</li>
+                            </ul>
+                            
+                            <p><a href="#preparation">Preparing Your Gear</a></p>
+                            <ul>
+                            <li>Battery charging</li>
+                            <li>Camera settings</li>
+                            <li>Setting Focus</li>
+                            </ul>
+                            
+                            <p><a href="#shooting">Taking The Shot</a></p>
+                            <ul>
+                            <li>Gear Setup</li>
+                            <li>First Shot</li>
+                            <li>Trails vs Points</li>
+                            <li>500 rule</li>
+                            <li><a href="#noise">Noise reduction</a>
+                                <ul>
+                                <li>High ISO</li>
+                                <li>Long exposure</li>
+                                <li>Stacking</li>
+                                </ul>
+                            </li>
+                            <li>Troubleshooting
+                                <ul>
+                                <li>Light Leaks</li>
+                                <li>Condensation</li>
+                                </ul>
+                            </li>
+                            </ul>
+
+                            <p>Post Production</p>
+                            <ul>
+                            <li>Lightroom</li>
+                            <li>Photoshop (for stacking)</li>
+                            <li>HDRProphoto</li>
+                            </ul>
+                            </div>
+                            
+                            <div class="blogtextright">
+                              <p><img src="http://www.marinepix.co.uk/images/astro1.jpg" alt="Milkyway photography - by Marinepix" style="float:left; margin-right:40px; width:50%"/><br>
+                              <a name="Planning">Planning</a></p>
+                              <p><br>
+                                Whilst it's useful to have the latest gear and zero light pollution, that's not always possible, especially here in the UK so I'm going to concentrate on what I've done and how I think it's worked (or not) for me.<br clear="all"><br>
+                              </p>
+                              <p>As with many other types of photography, it's good to have an idea what you want to acheive. Wandering about aimlessly in the middle of the night is NOT the best route to success so here are some more productive things to consider.<br>
+  The ideal conditions for a milkyway photo shoot are a moonless, windless, cloudless night in an area with no light pollution. The "core" of the milkyway needs to be well above the horizon and (for me) it needs to be more horizontal than vertical. I like to have a decent foreground subject which creates a connection to us here on planet Earth but this is a personal preference. Wanting a foreground subject is another reason I like the milkyway to be in a more horizontal position since it fits into the picture more easily<br>
+  <br>
+  <img style="float:right; margin-left:40px; width:175px" src="images/maximummoon.jpg" alt="Maximum moon phase for milkyway shots">The moon, even when it's only partially illuminated, is a very bright object in the sky. The light it reflects can massively reduce your ability to distinguish stars against their background - only the brightest stars might be visible while the Milky Way is hidden. Even if you're pointing the camera away from the moon, when there's a lot of dust, moisture or smog in the atmosphere it diffuses the light of the moon across the whole sky creating a blanket of obscurity. I always consider waiting until another day if the moon is above the horizon with anything more than just a tiny area lit like in the image here <br clear="all"><br>
+  
+  
+  <img style="float:left; margin-right:40px; width:50%" src="images/lightpollutionexample.jpg">Although man-made light pollution tends to be limited to the horizon, it is still greatly diffused by the atmosphere and the resulting glow will easily hide the stars. Unfortunately for UK astro-photographers, the most interesting part of the milkyway (the "core") never comes too far above the horizon. We've got the added disadvantage that we dont have many big open spaces where we can get away from this light pollution. I've found that city lights from over 30 miles away can still affect the outcome of a photo. The good news is it's not impossible to get a decent photo even with a bit of light pollution around. This image was taken in Selsey, pointing East and the light is from Bognor Regis about 6 miles away<br clear="all"><br>
+  
+  
+  It might be obvious to suggest that a lack of cloud is ideal but wisps of cloud are not too much of a problem since they dont usually stick around for too long. If you've set up to take a shot in a windy area, it's possibly going to move your camera about during the time the shutter is open and that's definitely more of an issue. Keeping your camera steady for the duration of the shot is vital. More on this a bit later.<br>
+  Our sun is one of about 400 billion stars in our galaxy, the Milky Way. The galaxy has a kind of 'disk' shape meaning we see a higher concentration of stars when we look across the disc. This concentration is greatest if we look towards the centre of the galaxy but the milkyway forms a band all the way around the earth. From a photography point of view, the highest concentration of stars (the galactic centre) is the more desirable area to include. It is the brightest area (due to sheer number of stars) but it also has the most obvious colour variations... something that is not immediately obvious to the naked eye. There are only certain times of the year and certain times of night when this galactic core is visible but fortunately, it's position in the sky is very predictable. A team of people have come up with a piece of software called Stellarium (www.stellarium.com) which is capable of simulating what the sky will look like at any time from any location. When I'm planning whether to head out on an astrophoto shoot, I'll check the weather and then Stellarium. It's amazing! 
+  Lastly, a personal preference - I like to have something in the foreground of my shots. So long as the foreground doesnt get in the way of the stars, it can work. Even if it's just a good landscape scene it can work but it may be worth considering either photo stacking or compositing to avoid too much noise in the land. Again, I'll mention this a bit further down.
+  <br><br>
+  <p><a id="Gear">Gear</a></p> Most modern cameras can take decent milky-way shots provided the conditions are right but there are a few things you might want to consider if you're going to buy gear specifically for astrophotography.<br>
+  <img style="float:right; margin-left:40px; width:175px" src="images/nikond800.jpg" alt="Nikon D800">First - use a camera with an ability to work effectively in low light conditions. You want be able to make the sensor really sensitive to light without it getting confused by electronic interference and producing noise. I'd love to try out and compare lots of different cameras but I've only got a Canon 550D (cropped frame) and a Nikon D800 (Full frame). The canon works ok but I bought the Nikon with astrophotography in mind and it works really well so that's the one I use. There are loads of cameras out there capable of doing a good job. Generally, the more modern, the better it'll be at this low-light stuff<br><br>
+  
+  <img style="float:right; margin-left:40px; width:175px" src="images/sigma15mm.jpg" alt="Sigma 15mm fisheye">As well as the camera, you'll need a lens. If you're a compact camera user, there's no lens to choose you dont get much choice over your lens but if you can select a specific lens, I'd say get a lens which offers a wide aperture. Perhaps in the region of f/2.8. Not all lenses are created equal and it's worth checking beforehand at what aperture your lens is sharpest. You ideally want a lens that is sharpest at it's widest aperture. Personally, I like to be able to capture the sky and a foreground subject all in one shot so I choose lenses which are wide. I have the Nikon 14mm f/2.8 lens which does a great job in the central areas of the lens. The outer edges being distinctly darker which often makes it harder to pull out the detail whilst keeping the noise in check. I've recently been trying with my Sigma 15mm fisheye lens and although it gives a good deal of distortion, it doesnt have the same issue in the corners. I understand the  14-24mm Nikon lens is sharper and also not so dark around the edges but I'm yet to satisfy myself of this. There are several other lenses that I can recommend but I haven't tried all of them so I feel it a little unfair to offer a comparison. I've had excellent results from my Nikkor24-70mm F/2.8 lens and I've seen good results from a friend using the Nikon 16-35mm. The Rokinon 14mm f/2.8 is well regarded but I've no.first hand experience at this point<br><br>
+  
+  <img style="float:right; margin-left:40px; width:175px" src="images/manfrottotripod.jpg" alt="Tripod"> Tripods: A tripod is vital for astrophotography. Although you can get away with balancing your camera on a bean-bag or even on the ground, I think you need to be able to compose your image with a bit more accuracy and consistency than these previous options offer. Having a tripod head which you can use in the dark is very handy. I've been using a Manfrotto ball head up until recently, very similar to the 468MGRC4 (<a href="https://www.manfrotto.co.uk/hydrostatic-ball-head-with-rc4-rapid-connect-system" title="Manfrotto tripod head" target="_new">https://www.manfrotto.co.uk/hydrostatic-ball-head-with-rc4-rapid-connect-system</a>)
+  Recently, I've switched to an Arca-swiss ball-mount with an L-plate adaptor.(http://www.wexphotographic.com/buy-arca-swiss-monoball-z1-sp-with-fliplock/p1027873) This ensures that the camera is solidy fixed in position when taking vertical shots where a traditional tripod plate mount may slip during a long exposure under the weight of the camera and lens. It certainly does what it's designed to do and I'm very happy to have it. At this point I'm finding it a little awkward to use in the dark but I expect with further use, it'll become second nature.<br><br clear="all">
+  
+  <img style="float:right; margin-left:40px; width:80px" src="images/stellarium_logo.jpg" alt="Stellarium">Software: Stellarium (<a href="http://www.stellarium.org/" target="_new">http://www.stellarium.org/</a>) is an amazingly useful piece of free software. I use it to plan my night-time adventures. It shows me where and how full the moon will be along with moonrise and moonset times. There are a good number of other bits of software worth getting... anything that will show you objects in the night sky while you're out and about is worth having - I use GoSkyWatchP on the ipad... I hold it up to the sky and it shows me what I can see in the direction I'm pointing it. The photographers ephemeris (http://photoephemeris.com/) is another great tool although there's a small fee for the phone/tablet app.
+  <br>
+  <br>
+  Optional: Head torch - if it has a red light, so much the better - using a red light will help you keep your night-vision abilities.<br>
+  Lens cloth - if it's humid and chilly, you'll get condensation on your lens. You'll have to keep removing this. It can come back very quickly. If you have a way to warm up the lens, that will help prevent condensation.<br>
+  Light painting torch - LED torches are ok but the light is very blue so you might want to add a warming gel to the end.<br>
+  Warm, windproof clothes - it's easy to forget you'll be hanging around for a long time while doing this. Keeping warm will help you stave off the desire to get back in the car and drive home.<br>
+  <br><br>
+  
+  <p><a id="Preparation">Preparation</a></p>
+  Scout the location during the day as there may be stuff which would ruin your picture (eg rubbish/ugly objects on the ground) as well as uneven ground en-route to your chosen vantage point. You really dont want to trip over with your expensive camera gear!<br>
+  The Milky Way will arc across the sky but one area has more &quot;substance&quot; than the rest... you ideally want to see that.. the &quot;galactic core&quot;. Since the MW moves throughout the night, it might be in the best position for your photo just before dawn so use Stellarium to establish when to go out, as well as which direction to point the camera.<br>
+  Camera settings: Unless you know your camera well, it's worth reminding yourself how to adjust iso, shutter speed and aperture, as well as how to review pictures. When I first had my camera, I spent far too long searching for the &quot;playback&quot;  and &quot;zoom&quot; controls. Although I shoot in RAW, I do still tend to have my white-balance set to produce fairly blue images by using a lower Kelvin temperature (eg flourescent). The images look &quot;nicer&quot; and more natural on the screen and I feel better about them but it's not really necessary to worry about whitebalancing when shooting RAW.<br>
+  <br>
+  Set Focus: This is very tricky at night... the stars are so faint that it's very difficult (even with live view) to zoom in and establish whether your in focus or not. If you have to set focus at night and you're unable to see any stars, try using lights on the horizon - as far away as possible. Use live view and set the shutter speed to 30 seconds, the ISO to as high as it'll go and the aperture to it's widest setting; turn off auto-focus and  use the live-view zoom function to enlarge the image on the display; Rotate the focus ring so the stars form as small a point as possible and then avoid touching the focus ring from that point on. If you forgot to switch off autofocus, the camera will try focusing when you take your first shot and you'll have to go through it all again! You may find it best to aim at a star in the middle of the frame to do this as the stars around the edges may be skewed due to lens distortion. It's far easier to set your focus during daylight, where you can focus on an object that's far in the distance - on the horizon or perhaps an aircraft high in the sky. In either case, once you've established this true infinity focus setting, mark your lens so you can accurately find the same point at night. Alternatively, you can fix it in place with some tape. I prefer the former method but you may not like the idea of marking your equipment.
+  <br><br>
+  <p><a id="shooting">Taking the Shot</a></p>
+  Set up your tripod and set focus if you've not had chance to already. (See above for focusing tips)
+  Get the camera pointing in roughly the right direction for the milkyway. If you've just been in bright lighting conditions you might not be able to make out the milkyway immediately but your night vision should improve over the next 15 minutes or so. It will quickly disappear again each time you look at a bright light so I'd suggest dimming the LCD on the back of the camera and switching your head-torch to it's red-light setting. If you're having trouble judging where the MW is, remember you can use your ipad to determine the general direction. Dont forget to turn on the app's night-vision mode!)
+  </p>
+  <p>
+  Take a test shot using your widest aperture, a high ISO (I use 6400 on my Nikon D800) and approx 30 seconds shutter speed.<br>
+  Doing this gives you a feeling for things that might need to change<br>
+  It's important to zoom into the image on your LCD, otherwise you may not see subtle issues with focusing or star-trailing which would show up in your final photograph.<br>
+  If you're seeing star-trails where the stars are lines rather than points, that's due to the rotation of the earth... Leaving the shutter open for less time will mean the trails become shorter but naturally you'll reduce the amount of light in the image at the same time. There's a bit of a compromise to make and you'll need to decide how long a trail your final picture can withstand. The "500 rule" is a useful and commonly used rule of thumb. It's a simple calculation which establishes a "sensible" shutter speed for a specific lens focal length. Divide 500 by the full-frame equivalent focal length of your lens to get the maximum number of seconds you should keep the shutter open for if you want to minimize star trails. This is very much a guide and it doesnt mean there'll be no trailing in your resulting shots. Apart from anything else, different stars produce longer/shorter trails depending on their distance from the axis of rotation (usually Polaris, also known as the pole star & the North star). Anyway, this 500 rule is a good guide - you can adjust it if you find it's not good enough for your needs.</p>
+  <p>
+  Ideally, when shooting, you want to aim for a fast speed, narrow aperture and low ISO but in reality, you'll end up with F2.8 or F3.2, ISO 3200 or 6400 and 25 or 30 seconds. If you find that you're just not getting the milky-way coming out in your shots, it's possibly because the area you're in is suffering from a bit of light pollution. Dark skies always seem to be in the most remote places - especially in the UK but you may find some darkness at the coast or in one of the national parks. The other reason your milkyway may not be showing up properly is that your ISO sensitivity may be too low... increasing the ISO will result in more sensor noise so I'd suggest this is where you might like to consider stacking your photos. At this stage, that's quite easy... you simply take several shots one after the other without moving the camera. You'll combine the shots together in photoshop and take an average from all of the shots - hopefully the noise in one shot will be cancelled out by a lack of noise in the other shots. More about this in the "post-processing&quot; section later.
+</p>
+<p><a id="Noise">Noise Reduction</a></p> There are 3 options available for reducing the noise in a shot:<br>
+High-ISO noise reduction is a camera function which affects only the JPG file you see on the back of the camera so this is of little use when shooting RAW images.<br>
+Long Exposure noise reduction is another feature of more advanced cameras where the camera will take the picture you requested and it'll then take a 2nd picture of the same duration but this time with the shutter closed. The 2nd image has all of the noise but none of the light from the lens and it is used as a reference by the camera for removing noise in the initial image. This is a great option to use if you have time and patience but it's not so brilliant if you're doing a timelapse or creating a star-trail as you'll end up with jumps or gaps between the stars.
+</p>
+<p><a id="stacking">Stacking</a> If you're getting too much noise in your pictures and you can't lengthen your shutter speed or widen the aperture on your lens then you may want to consider combining several (noisy) shots. First and foremost, you'll need to have a number of very similar shots in order to do this. Life is easier when you have no foreground to consider but even with a foreground, it's fairly straightforward. Back on the computer, you can open up all the photos together, mask out the foreground and align the images. Photoshop is pretty good at doing this automatically but there are manual methods too if you need them. Once aligned, combine all the layers into a smart object and stack them using the &quot;median&quot; method. and then combine them back on the computer in such a way that the noise is "averaged out". There is a step by step process involved and rather than me go into detail here, <a href="https://www.youtube.com/watch?time_continue=15&v=Rydg7JGTAbw" target="_new">I recommend watching Ian Norman's YouTube video on the subject by clicking here.</a></p>
+
+
+
+
+<p><a id="troubleshooting">Troubleshooting</a><br/>Light Leaks  Many cameras have a method of shading the viewfinder to prevent light leaking in. If you dont have such a device, it's worth considering getting or perhaps making one. During long exposures, even the slightest light from behind the camera can get in and reduce the contrast of your image or produce random flares of light. Sometimes, these light leaks can be so subtle you dont notice them until you're back on the computer and it's too late so it's worth making the closing of your viewfinder part of your astro-workflow.<br>
+<b id="condensation">Condensation</b> One of the most frustrating things to contend with is condensation forming on the lens. It occurs when humid air comes into contact with the cold glass of your lens. Once it's there, it's tricky to get rid of and it reforms very quickly so the best option is to prevent it in the first place... a lens hood is a good option but you can also get devices that can warm your lens slightly. <br>
+
+<a style="float:left; margin-right:40px; width:80px" href="https://www.amazon.co.uk/Astro-dew-heater-40-telescope/dp/B00ERGVIGS/ref=as_li_ss_il?srs=3517790031&ie=UTF8&qid=1475533958&sr=8-1&linkCode=li1&tag=mari-21&linkId=0e9a0ccb6e643a27906a37866fc2e1bf" target="_blank"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00ERGVIGS&Format=_SL110_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=mari-21" ></a><img src="https://ir-uk.amazon-adsystem.com/e/ir?t=mari-21&l=li1&o=2&a=B00ERGVIGS" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><br>These "dew heaters" require a powersupply and cables which make them more cumbersome and another potential point of failure but they are also reusable, easy to attach/remove, arguably more reliable and perhaps more environmentally friendly too.<br clear="all">
+
+<a style="float:left; margin-right:40px; width:80px" href="https://www.amazon.co.uk/HotHands-836-8342-Hands-Hand-Warmer/dp/B00AHVXSY2//ref=as_li_ss_il?ie=UTF8&linkCode=li1&tag=mari-21&linkId=e665696f5df03cd194be0bd87d9c0262" target="_blank"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00AHVXSY2&Format=_SL110_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=mari-21" ></a><img src="https://ir-uk.amazon-adsystem.com/e/ir?t=mari-21&l=li1&o=2&a=B00AHVXSY2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><br>
+If you prefer a slightly more DIY approach, you can use flexible hand warmers such as the ones I've linked to here<br>
+<br clear="all">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  I've done a fair amount of astro-photography now. I'm particularly keen on photographing the milky way along with a foreground subject of some sort.<br><br>
+  
+  There are limited opportunities to do it in the UK so when I see the skies are clear and there's no moon, I start wracking my brain trying to think of new places to go where there's an interesting foreground subject and a lack of light pollution.<br>
+  Scouting locations during the day has become a bit of an obsession!<br>
+  <br>
+  Some places turn out to be less photographically productive due to light pollution - we get so much of it here in Sussex despite being close to The South Downs National Park. Nonetheless, I've created some photos I've been pleased with and for which I've had good feedback.<br>
+  I thought I'd give some details here on what I do to get my shots but feel free to ignore all the text and just look at the pictures.<br>
+  At this stage I should mention that I can and do create prints of my images so if you'd like one, please let me know. Even one offs are easy to produce.<br>
+  <br>
+  So... lets start with the gear I use.
+  This isn't everything, just the basics. Maybe I'll go into the more advanced stuff if I get good feedback from this post! :-)<br>
+  
+  Camera:- I use a Nikon D800. I have also got a Canon 550D which can produce some good stuff but the images can be noisier than the D800. I dont think theres much of a difference between the manufacturers, and these days I don't think there's too much of an advantage to having a full frame camera, other than the possible extended field of view.<br>
+  
+  
+  I thought I'd write down some of the things I've learned while doing this stuff so that others might benefit but since it's such a big subject, I thought it was prudent to create a page dedicated to the subject rather than filling this blog page with too much waffle that some might find uninteresting.<br>
+  So, if you want to read more about my astrophotography and milkyway adventures, click here. If you just want to look at a selection of my night-time pictures, click here and you'll be sent to my gallery page.</p>
+</p>
+      </div>
+<div class="blogtextleft">                            
+                            
+                            I'm aware this is a huge topic but I wanted to write a few notes about my night-time photography. In particular how I go about photographing the milkyway.<br>
+Naturally, having the right gear is a must... a sturdy tripod is a must, including a tripod head that allows you to point the camera upwards. The ball-mount tripod heads generally have a groove in them that has to be positioned nearest to you when you want to point upwards and on some heads, this can mean rotating the head through 180 degrees first. You might want to consider a 3-way adjustment head if you're considering buying one... it'll make life easier if you end up doing vertical panoramic shots.<br>
+When you take the shot, you'll make use of high-ISO settings so a camera with good low-light capabilities is going to be best(ie good sensitivity but with as little noise as possible). I've got 2 wide-angle lenses, each of which opens to f/2.8. I've found that my 15mm sigma fisheye has less vignetting than my 14mm Nikkor wide-angle but it also produces a much more distorted image. I dont see this as a big deal unless I'm trying to include a foreground subject - something I do more often than not. I've also started using my 24-70mm Nikkor lens - again at f/2.8 and I'm impressed with it's capabilities although I'm not able to capture so much of the sky with it.
+Before leaving the house I use Stellarium... it's a software package that allows me to plan my photo. I can determine the time that I need to go out, the position of the milky-way, moon-rise and moon-set times, sun-rise times if I think I'll be out for that long. It also shows the phase of the moon and it makes a decent job of predicting how much the light from the moon will affect my ability to see the milkyway. It's well worth downloading if you can. (<a href="http://www.stellarium.org" title="Stellarium" target="_new">www.stellarium.org</a> )
+You'll also need some kind of post-processing software. I'm a fan of lightroom and I do most of my post-processing using it. I'll also use Photoshop if I want to do things like image-stacking.<br>
+I always take a remote shutter release although I've never had any problems when using the self-timer and or even a gentle press on the shutter button. It does make life a bit easier and it really helps if you need to be in a position where reaching the shutter button is difficult. I also tend to use mirror-up... there's little point trying to keep the camera still in every other way and not using mirror up.
+It's useful to also have a torch with a red-light option. You can use this for finding your gear in your bag or reading the markings on your lens when trying to focus on infinity. Red-light disrupts your night-vision abilities much less than a normal white light. <br>
+You might also want to light-paint your foreground so another torch, perhaps with options for narrow and wide beam, is good to have too. It also helps to have some kind of warming gel filter over the light, especially if your torch is an led... these tend to give a white or blueish light which dont look very natural in the final picture.
+So, that's the gear.. next is taking the shot.... which is actually fairly straightforward I beleive. You need to open the aperture, increase the sensitivity and lengthen the shutter speed to get the best. Each of those things is going to increase the amount of light recorded on your camera sensor BUT at the same time, each of them has a compromise... By opening the aperture, you can reduce the sharpness of the stars and you may find it difficult to keep foreground subjects in focus whilst the stars are too.
+By increasing your ISO and making the sensor more sensitive, you also allow more noise to be created in the picture.
+By slowing your shutter speed, you might get an obvious "star-trail"... the more the earth rotates whilst the shutter is open, the more likely your stars will change from points of light into streaks of light. This is ok if you do long trails or even a series of similar shots one after another which you then blend later.
+</div>
+
+
+
+      </div>
+    </div>
+    <!-- AddThis Button BEGIN --> 
+    <!--    <div class="clearline"><br clear="all">
+    </div>
+    <div style="display:block;border-top:thin solid #333"> 
+      <div class="addthis_toolbox addthis_default_style "> <a class="addthis_button_tweet"></a> <a class="addthis_button_google_plusone" g:plusone:size="medium"></a> <a class="addthis_button_linkedin_counter"></a>
+        <div class="fb-like" style="margin-left:30px; margin-right:30px;" data-href="http://www.marinepix.co.uk/blog.html" data-send="false" data-layout="button_count" data-width="50" data-show-faces="false"></div>
+      </div>
+      <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script> 
+      <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4fc6d3cf07fbdb6e"></script> 
+    </div>
+--> <!-- AddThis Button END --> 
+    
+
+</div>
+<!--abscentre --> 
+<!-- Start of StatCounter Code --> 
+<script type="text/javascript">
+var sc_project=3825984; 
+var sc_invisible=1; 
+var sc_security="46d5b055"; 
+</script> 
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript>
+<div class="statcounter"><a title="web stats"
+href="http://statcounter.com/free-web-stats/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/3825984/0/46d5b055/1/"
+alt="web stats"/></a></div>
+</noscript>
+<!-- End of StatCounter Code -->
+</body>
+</html>

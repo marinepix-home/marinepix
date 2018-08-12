@@ -1,0 +1,780 @@
+@import "cssreset.css";
+
+@charset "utf-8";
+
+@font-face {
+	font-family:My Custom Font;
+	src:url(http://www.marinepix.co.uk/resources/font/Soljik-Dambaek.eot) format("truetype");
+}
+@font-face {
+	font-family:My Custom Font;
+	src:url(http://www.marinepix.co.uk/resources/font/Soljik-Dambaek.ttf) format("truetype");
+}
+
+html {margin:0px;padding:0px;
+
+}
+
+body {
+	margin:0px;padding:0px;
+	/*add a little spacer on the RHS so slideshow doesnt appear quite full-screen*/
+	margin-right:10px;
+	/*background-image:url(http://www.marinepix.co.uk/images/bg-linen-lighter.jpg);
+*/}
+
+
+
+.gradient { 
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-radial-gradient(center, circle farthest-side, rgba(160,185,235,0.2) 0%, rgba(255,255,255,0) 150%);
+	
+	/* Mozilla Firefox */ 
+	background-image: -moz-radial-gradient(center, circle farthest-side, rgba(160,185,235,0.2) 0%, rgba(255,255,255,0) 150%);
+	
+	/* Opera */ 
+	background-image: -o-radial-gradient(center, circle farthest-side, rgba(160,185,235,0.2) 0%, rgba(255,255,255,0) 150%);
+	
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(radial, center center, 0, center center, 487, color-stop(0, rgba(160,185,235,0.2)), color-stop(1.5, rgba(255,255,255,0)));
+	
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-radial-gradient(center, circle farthest-side, rgba(160,185,235,0.2) 0%, rgba(255,255,255,0) 150%);
+	
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: radial-gradient(circle farthest-side at center, rgba(160,185,235,0.2) 0%, rgba(255,255,255,0) 150%);
+}
+
+.captiongradient {
+
+background: -moz-radial-gradient(center, ellipse cover,  rgba(131,211,139,1) 0%, rgba(131,211,139,0) 71%, rgba(131,211,139,0) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(131,211,139,1)), color-stop(71%,rgba(131,211,139,0)), color-stop(100%,rgba(131,211,139,0)));
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(131,211,139,1) 0%,rgba(131,211,139,0) 71%,rgba(131,211,139,0) 100%);
+background: -o-radial-gradient(center, ellipse cover,  rgba(131,211,139,1) 0%,rgba(131,211,139,0) 71%,rgba(131,211,139,0) 100%);
+background: -ms-radial-gradient(center, ellipse cover,  rgba(131,211,139,1) 0%,rgba(131,211,139,0) 71%,rgba(131,211,139,0) 100%);
+background: radial-gradient(ellipse at center,  rgba(131,211,139,1) 0%,rgba(131,211,139,0) 71%,rgba(131,211,139,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#83d38b', endColorstr='#0083d38b',GradientType=1 );
+
+
+}
+
+
+
+.banner {
+	width:25%;
+	height:650px;
+	display:inline;
+	margin:0px;
+	padding:0px;
+	float:left;
+}
+
+.abscentre {
+	margin:auto;
+	margin-top:0px;
+	position: absolute;
+	padding:0px;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 1100px; /*fixed*/
+/*	height:700px; /*proportion of window*/
+	overflow:visible;
+	min-width:800px;
+/*	min-height:700px;
+*/	background-color:transparent;
+
+/*replacements 311213*/
+overflow:hidden;
+}
+
+.titlebar {
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:5px;
+	/*background-color:#CC0000;*/
+	}
+
+.menutop {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-variant: small-caps;
+/*	background-color:#CCC;*/
+	background-color:transparent;
+	margin:0px;
+	padding:0px;
+	
+}
+
+ul {
+	margin:0px;
+	padding:0px;
+	padding-left:30px;
+	padding-bottom:10px;
+	background-color:rgba(255,255,255,1);
+
+	list-style-type:none;
+	}
+
+ul li {
+	list-style-position:inside;
+    width:100px;
+	text-align:left;
+	padding-left:20px; 
+	padding-right:25px;
+	padding-bottom:3px;
+	display:inline;
+	background-color:rgba(230,230,230,1);
+	}
+
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-variant: small-caps;
+	margin:0px;
+	padding:0px;
+	color:#888;
+	width:100%;
+}
+
+a:hover {
+	color:#000066;
+	background-image: none;/*url(http://www.marinepix.co.uk/images/menufade4.png);
+	background-repeat: no-repeat;
+	background-position: -5px bottom;*/
+}
+
+ul li a:hover {
+	display:;
+	background-color:rgba(240,240,240,1);
+	color:rgba(10,10,10,1);
+	
+}
+
+	
+img {
+	padding:0px; /*theres a gap above the image so this helps remove it*/
+	margin:0px;
+}
+
+#slideshow {
+	margin: 0px; 
+	position: relative; 
+	width:75%; /*make room for banner*/
+	height: 650px; 
+	padding: 0px; 
+	float:right;
+}
+		
+		
+#slideshow > div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow:hidden;
+}
+
+#printcontent {
+	margin: 0px; 
+	position: relative; 
+	width:800px; 
+	height: 650px; 
+	padding: 0px; 
+	float:left;
+	font-family: "Overlock"; /*google*/
+}
+
+#printcontent p {
+	font-size: 0.9em;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0.12em;
+	word-spacing: 0.1em;
+	line-height: 1.4em;
+	list-style-type:none;
+}
+	
+#printcontent hy2 {
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0.12em;
+	word-spacing: 0.1em;
+	line-height: 0.5em;
+}
+
+#printcontent a {
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0.12em;
+	word-spacing: 0.1em;
+	line-height: 0.5em;
+}
+
+#printcontent h4 {
+	font-size: 1.1em;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0.010em;
+	word-spacing: 0.1em;
+	line-height: 0.5em;
+	margin-top:1em;
+	margin-left:1em;
+}	
+
+#printcontent > div {
+	position: absolute;
+	top: -2px;
+	left: 14px;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+
+.clearline {
+	line-height:0px;
+}
+
+.breakline {
+	clear: both;
+    float: none;
+}
+
+.printblockmain {
+	float:left;
+	border:solid 1px #CCC;
+	margin:5px;
+	width:23%;
+	padding:0px;
+    opacity:1;
+	filter:alpha(opacity=100); /*ie8 and earlier */
+	margin-top:15px;
+	text-transform: capitalize;
+	font-variant: small-caps;
+}
+
+.printblockmain:hover {
+	opacity:0.4;
+	filter:alpha(opacity=40);
+}
+
+.printblockhead {
+	background-image:url(http://assets.photobox.com/assets/content_graphics/67/26967.jpg?1278607588);
+	background-repeat: repeat-x;
+	height:37px;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	top:0px;
+	display:inline-block;
+}
+
+.printblockhead > h2 {
+	padding-left: 14px;
+	padding-top: 10px;
+	font-size:16px;
+	font-family: "Overlock"; /*google*/
+	color:#000;
+}
+
+.printblockimage {
+	width:100%;
+	height:134px;
+}
+
+.printblockimage > img{
+	height:134px;
+	max-width:100%;
+	text-decoration:none; 
+	border:none;
+}
+.printblocktext { /*very specifically coded due to using an a-ref for the whole div*/
+	font-variant:normal;
+	font-weight: 400;
+	font-size: 0.75em; /*12px*/
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-variant: small-caps;
+	margin:0px;
+	padding:13px;
+	color:#000;
+	letter-spacing: 0.12em;
+	word-spacing: 0.1em;
+	line-height: 1.4em;
+}
+
+.columns > p {
+	display:block;
+	width:23%;
+	float:left;
+}
+
+.printblockmain .description {
+	font-size:0.8em;
+	color:#333;
+	margin-top:15px;
+}
+.description {text-transform:none;}
+
+
+
+.gallxeryblock {
+	/*position:relative;*/
+	display:block;
+	margin:5px;
+	padding:5px;
+	width:120px;
+	height:130px;
+	background-color:#FFFFFE;
+	border: thin solid black;
+	overflow:auto;
+	float:left; /*ensures gallery boxes are lined up on ipad */
+
+	box-shadow:2px 2px 2px 1px #ddd;
+	text-transform:none;
+	font-variant:normal;
+	font-size:0.9em;
+	line-height:1.2em;
+	letter-spacing:0.1em;
+	color:#333;
+
+}
+
+/*.galleryblock>img {
+	width:100%;
+	max-height:80%;
+	float:none;
+	margin-bottom:8px;
+}
+
+.galleryblock a {
+	background-color:#E8E8E8;
+	text-decoration:none;
+	border-bottom:none;
+}*/
+
+#gallerycontent > a:hover {
+	background-image:none;
+    opacity:1;
+	filter:alpha(opacity=100); /*ie8 and earlier */
+}
+
+#gallerycontent > a {
+	background-image:none;
+    opacity:0.9;
+	filter:alpha(opacity=90); /*ie8 and earlier */
+}
+
+
+/* .galleryblock:hover {
+  border-radius: 2%;
+  width:150px;
+  height:160px;
+  padding:5px;
+  margin:-10px;
+  box-shadow:0px 0px 15px 10px #CCC;
+  z-index:101;
+}*/
+
+.banneripad { 
+	display:block;
+	width:100%;
+/*	background-image:url(../images/homebanner6.gif);
+	background-image:none;
+	background-repeat:repeat-x;
+	background-clip:border-box;*/
+}
+
+.scriptfont {
+	font-family: "My Custom Font", 'Rosario', sans-serif;
+	text-transform:capitalize;
+	font-variant:normal;
+	text-align:center;
+	font-size:48px;
+	color:#006;
+	font-weight:normal;
+	letter-spacing:0.4em;
+	text-shadow:4px 4px 4px #aaa;
+
+}
+
+
+.banneripad:first-letter
+{
+	font-size:170%;
+}
+
+.bannerline2 {
+	font-size:20px !important;
+	letter-spacing:0.5em !important;
+	padding-bottom:0.2em !important;
+	text-shadow:4px 4px 4px #bbb;
+}
+
+a:hover .bannerline2 {color:#888;}
+
+.banner {
+	display:inline;
+}
+/* Fixing the height here creates a scrollbar when reqd. 
+problem is visibility of box-shadow
+also, scroll-bar appears for the bottom gallery elements!
+Think the height fixity should be part of a parent block like abscentre but that already has a height so not sure why it doesnt work
+Perhaps too many div elements involved - needs simplifying*/
+#linkcontent, #gallerycontent, #blogcontent{
+	position: relative; 
+/*	width:805px!important;
+*//*width:74% !important;                18.05.14*/
+	/*height: 650px; */
+	float:left;
+	overflow:auto;
+	padding-right:10px;
+	padding-left:10px;
+}
+
+#linkcontent {
+	width:805px!important;
+
+}
+#blogcontent img {
+	border:solid medium white;
+	box-shadow:2px 2px 3px 3px #ddd;
+}
+#blogcontent a {
+	background-image:none;
+	color:#06C ;
+}
+
+.linkblock,.galleryblock{
+	display:block;
+	padding:5px;
+	margin:5px;
+	width:25%;
+	min-height:150px;
+	background-color:#FFFFFE;
+	border: thin solid #aaa;
+	overflow:auto;
+	float:left; /*ensures gallery boxes are lined up on ipad */
+	box-shadow:2px 2px 2px 1px #ddd;
+	text-transform:none;
+	font-variant:normal;
+	font-size:0.7em;
+	line-height:1.2em;
+	letter-spacing:0.1em;
+	color:#333;
+}
+.galleryblock {
+		width:150px;
+}
+a.linkblock,a.galleryblock {
+	background-image:none;
+    opacity:0.9;
+	filter:alpha(opacity=90); /*ie8 and earlier */
+
+}
+
+a.linkblock:hover,a.galleryblock:hover {
+    opacity:1;
+	filter:alpha(opacity=100); /*ie8 and earlier */
+	border-color:#888;
+	box-shadow:3px 3px 2px 1px #bbb;
+	margin-left:4px;
+	margin-top:4px;
+	padding-right:6px;
+	padding-bottom:6px;
+}
+.linkblock img,.galleryblock img {
+	width:100%;
+	float:none;
+	margin-bottom:8px;
+}
+.galleryblock img {
+	max-height:120px;
+}
+.linkblocksmall {
+	width:auto;
+	height:auto;
+	float:none;
+}
+.linkblocklarge {
+/*	width:80% !important;
+*/	width:640px !important;
+	float:none;
+	border: solid thin #888;
+}
+.linkblocklarge:hover {
+	opacity:1;
+	filter:alpha(opacity=100); /*ie8 and earlier */
+	border-color:#888;
+	box-shadow:3px 3px 2px 1px #bbb;
+	margin-left:4px;
+	margin-top:4px;
+	padding-right:6px;
+	padding-bottom:6px;
+}
+.linkblock:hover,.galleryblock:hover {
+	opacity:1;
+	filter:alpha(opacity=100); /*ie8 and earlier */
+	border-color:#888;
+	box-shadow:3px 3px 2px 1px #bbb;
+	margin-left:4px;
+	margin-top:4px;
+	padding-right:6px;
+	padding-bottom:6px;
+}
+#contactcontent {
+	margin: 0px; 
+	width:790px; 
+	height: 640px; 
+    padding:10px 0 0 10px;
+	font-family: "Overlock"; /*google*/
+	float:left;
+	overflow:auto;
+}
+#contactcontent li{
+	display:block;
+	width:inherit; /* counteracts the width used for navigation*/
+	/*list-style-type:disc;
+	list-style-position:inside;*/
+}
+
+/*#contactcontent ul {
+	margin:0px;
+	padding:0px;
+	padding-left:0px;
+	background-color:#fdf;
+	}*/
+
+#contactcontent ul li {
+	list-style-position:outside !important;
+	text-align:left;
+	padding:inherit; 
+	display:block;
+/*	list-style:circle outside 
+	list-style-type:disc !important;*/
+	}
+	
+/*blog*/	
+.date {
+	font-size:12px;
+	color:#888;
+	text-align:right;
+}
+
+.blogtextleft, .blogtextright, .blogtextleft a, .blogtextright a{
+	font-family: overlock, sans-serif;
+	font-size:14px;
+	line-height: 150%;
+	letter-spacing: 150%;
+	word-spacing: 150%;
+}
+
+.blogtextleft {margin-left:40px;
+		   margin-right:10px;
+}
+.blogtextright {margin-left:10px;
+		   margin-right:40px;
+		   }
+
+.blogh1 {font-size:16px;
+margin-bottom:5px;}
+	
+.blogtextleft a:hover, .blogtextright a:hover {
+		color:#FF9 !important;
+		font-size:14px!important;
+    	font-weight:normal !important;
+
+}
+	
+/*gallery page stuff*/
+.detailNav {
+	margin: 0px auto;
+	width:145px;
+}
+#navleft:hover {
+	display:inline-block;
+	background-image:none;
+}
+#navup:hover {
+	display:inline-block;
+	background-image:none;
+}
+#navright:hover {
+	display:inline-block;
+	background-image:none;
+}
+
+.detailText {
+	color: #B3B3B3;
+	background-color: transparent;
+}
+
+#detailCaption {
+	font-variant:small-caps;
+	text-transform: capitalize;
+}
+	
+img:hover {display:block!important;
+	
+	}
+	
+a:hover {
+	background-image:none;
+}
+	
+@media all and (max-height: 700px)
+{ 
+.abscentre{ margin-top: 0px;} /*Make sure the menu options are visible when screen shrinks*/
+}
+
+/*ipad*/
+@media only screen 
+and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+.abscentre {
+	position:relative;
+	width: 100%; 
+	height:100%; 
+	overflow:hidden;
+	min-width:800px;
+	background-color:#ffffff;
+}
+.banneripad { 
+	display:inline;
+/*	height:40px;*/
+	/*background-image:url(../images/homebanner6.gif);
+	background-repeat:repeat-x;
+	background-clip:border-box;*/
+	font-family: "My Custom Font",'Rosario', sans-serif;
+	text-align:center;
+	font-size:52px;
+	letter-spacing:0.4em;
+/*	padding-bottom:0.3em;
+	padding-left:0.5em;
+	padding-right:0.5em;
+*/	padding-left:0.5em;
+	padding-right:0.5em;
+	padding-bottom:0.4em;
+	text-shadow:3px 3px 3px #ddd;
+
+}
+.bannerline2 {
+	font-size:26px !important;
+	letter-spacing:0.3em !important;
+	padding-bottom:0.5em !important;
+	text-shadow:3px 3px 3px #ddd;
+
+}
+.banneripad::first-letter
+{
+	font-size:370%;
+}
+a:hover {
+	background-image:none;
+}
+
+.banner {
+	display:none;
+	/*For testing 31.12.13*/
+	width:25%;
+	height:608px;/*this doesnt seem to work with % values  possibly cos the slideshow is within something else?*/
+	position:absolute;
+}
+
+.printblocktext > p {
+	font-size:1em;
+	padding:2px;
+}
+
+#slideshow {
+	width:99%;
+
+	/*For testing 31.12.13*/
+	height:532px; /*this doesnt seem to work with % values */
+	overflow:hidden;
+	text-align:center;
+	box-shadow:1px 1px 2px 2px #666;
+	margin:5px auto 0px auto;
+	float:none;
+
+}
+
+
+#slideshow > div >img {
+	width:100%;
+	position:relative;
+	top: -120px;
+}
+
+#printcontent {
+	width:100%;
+	overflow:hidden;
+		float:left;
+
+}
+
+.clearline {
+	line-height:1em;
+}
+
+a {
+	font-size:1.1em;
+}
+
+#gallerycontent a {
+	font-size:0.8em;
+}
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+	.abscentre {
+	position:relative;
+	width: 100%; 
+	height:100%;
+	overflow:hidden;
+	min-width:500px;
+	background-color:#ffffff;
+}
+
+
+.banner {
+	display:none;
+}
+
+.banneripad { 
+	display:block;
+	height:50px;
+}
+.banner {
+	width:20%;
+	/*position:absolute;*/
+}
+
+#slideshow {
+	width:80%;
+	overflow:hidden;
+}
+
+a {
+	font-size:1.2em;
+}
+
+#gallerycontent a {
+	font-size:0.8em;
+}
+
+}

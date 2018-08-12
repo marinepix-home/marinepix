@@ -1,0 +1,312 @@
+@import "cssreset.css";
+@charset "utf-8";
+
+
+html {margin:0px;padding:0px;}
+
+body {margin:0px;padding:0px;}
+
+.banner {
+	width:300px;
+	height:650px;
+	display:inline;
+	margin:0px;
+	padding:0px;
+	float:left;
+}
+
+.abscentre {
+	margin:auto;
+	position: absolute;
+	padding:0px;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 1100px; /*fixed*/
+	height:700px; /*proportion of window*/
+	overflow:hidden;
+	min-width:800px;
+	background-color:#FFF;
+}
+
+.menutop {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-variant: small-caps;
+	background-color:#CCC;
+	margin:0px;
+	padding:0px;
+}
+
+ul {
+	margin:0px;
+	padding:0px;
+	padding-left:10px;
+	background-color:#fff;
+	list-style-type:none;
+	}
+
+ul li {
+	list-style-position:inside;
+    width:100px;
+	text-align:left;
+	padding-left:0px; 
+	padding-right:15px;
+	display:inline;
+	}
+
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-variant: small-caps;
+	margin:0px;
+	padding:0px;
+	color:#888;
+}
+
+a:hover {
+	list-style-type: none;
+	color:#000066;
+	background-image: url(http://www.marinepix.co.uk/images/menufade4.png);
+	background-repeat: no-repeat;
+	background-position: -5px bottom;
+}
+	
+img {
+	padding:0px; /*theres a gap above the image so this helps remove it*/
+	margin:0px;
+}
+
+#slideshow {
+	margin: 0px; 
+	position: relative; 
+	width:800px; 
+	height: 650px; 
+	padding: 0px; 
+}
+		
+		
+#slideshow > div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow:hidden;
+}
+
+#printcontent {
+	margin: 0px; 
+	position: relative; 
+	width:800px; 
+	height: 650px; 
+	padding: 0px; 
+	float:right;
+	font-family: "Overlock"; /*google*/
+}
+
+#printcontent p {
+	font-size: 0.9em;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0.12em;
+	word-spacing: 0.1em;
+	line-height: 1.4em;
+	list-style-type:none;
+}
+	
+#printcontent hy2 {
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0.12em;
+	word-spacing: 0.1em;
+	line-height: 0.5em;
+}
+
+#printcontent a {
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0.12em;
+	word-spacing: 0.1em;
+	line-height: 0.5em;
+}
+
+#printcontent h4 {
+	font-size: 1.1em;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0.010em;
+	word-spacing: 0.1em;
+	line-height: 0.5em;
+	margin-top:1em;
+	margin-left:1em;
+}	
+
+#printcontent > div {
+	position: absolute;
+	top: -2px;
+	left: 14px;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+
+.clearline {
+	line-height:0px;
+}
+
+.breakline {
+	clear: both;
+    float: none;
+}
+
+.printblockmain {
+	float:left;
+	border:solid 1px #CCC;
+	margin:5px;
+	width:23%;
+	padding:0px;
+    opacity:1;
+	filter:alpha(opacity=100); /*ie8 and earlier */
+	margin-top:15px;
+	text-transform: capitalize;
+	font-variant: small-caps;
+}
+
+.printblockmain:hover {
+	opacity:0.4;
+	filter:alpha(opacity=40);
+}
+
+.printblockhead {
+	background-image:url(http://assets.photobox.com/assets/content_graphics/67/26967.jpg?1278607588);
+	background-repeat: repeat-x;
+	height:37px;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	top:0px;
+	display:inline-block;
+}
+
+.printblockhead > h2 {
+	padding-left: 14px;
+	padding-top: 10px;
+	font-size:16px;
+	font-family: "Overlock"; /*google*/
+	color:#000;
+}
+
+.printblockimage {
+	width:100%;
+	height:134px;
+}
+
+.printblockimage > img{
+	height:134px;
+	max-width:100%;
+	text-decoration:none; 
+	border:none;
+}
+.printblocktext { /*very specifically coded due to using an a-ref for the whole div*/
+	font-variant:normal;
+	font-weight: 400;
+	font-size: 0.75em; /*12px*/
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-variant: small-caps;
+	margin:0px;
+	padding:13px;
+	color:#000;
+	letter-spacing: 0.12em;
+	word-spacing: 0.1em;
+	line-height: 1.4em;
+}
+
+.columns > p {
+	display:block;
+	width:23%;
+	float:left;
+}
+
+.printblockmain .description {
+	font-size:0.8em;
+	color:#333;
+	margin-top:15px;
+}
+.description {text-transform:none;}
+
+/*ipad*/
+@media only screen 
+and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+.abscentre {
+	position:relative;
+	width: 100%; 
+	height:100%; 
+	overflow:hidden;
+	min-width:800px;
+	background-color:#ffffff;
+}
+.banner {
+	width:25%;
+	height:608px;/*this doesnt seem to work with % values  possibly cos the slideshow is within something else?*/
+	position:absolute;
+}
+
+.printblocktext > p {
+	font-size:1em;
+	padding:2px;
+}
+
+#slideshow {
+	width:75%;
+	height:608px; /*this doesnt seem to work with % values */
+	overflow:hidden;
+}
+#printcontent {
+	width:75%;
+	overflow:hidden;
+}
+
+.clearline {
+	line-height:1em;
+}
+
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+	.abscentre {
+	position:relative;
+	width: 100%; 
+	height:100%;
+	overflow:hidden;
+	min-width:500px;
+	background-color:#ffffff;
+}
+.banner {
+	width:20%;
+	position:absolute;
+}
+
+#slideshow {
+	width:80%;
+	overflow:hidden;
+}
+}
+
+z

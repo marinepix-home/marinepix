@@ -1,0 +1,36 @@
+@import "cssreset.css";
+@charset "utf-8";
+/* CSS Document */
+
+
+/*.back div {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	background-size:contain;
+}
+*/
+html {
+/*	max-height:100%;
+    width:100%;
+*/	background:url(../images/misty%20morning-1.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/misty%20morning-1.jpg',sizingMethod='scale');
+   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/misty%20morning-1.jpg',sizingMethod='scale')";
+}
+
+#latest-flickr-images img {
+	margin:10px;
+	box-shadow:0px 0px 10px #FC0;
+}
+
+#latest-flickr-images2 img {
+	margin:10px;
+	box-shadow:0px 0px 20px #FC0;
+}
+

@@ -1,0 +1,42 @@
+.logo {
+	width:104px;
+	height:26px;
+	background:url('/images/pinterest.png') -435px -281px no-repeat;
+	display:inline-block;
+	vertical-align:middle;
+	zoom:1;
+	/*display:inline;*/
+	vertical-align:auto;
+	font:0/0 serif;
+	text-shadow:none;
+	color:transparent;
+}
+
+/*override the main css setting so my pinterest logo doesnt hide on hover*/
+.logo:hover{	background:url('/images/pinterest.png') -435px -281px no-repeat;
+}
+
+
+.contactimg > img
+{display:block;
+}
+
+#contactcontent >p{
+	font-family: "Overlock"; /*google*/
+}
+.contacttext { 
+	font-variant:normal;
+	font-weight: 400;
+	font-size: 0.8em; /*12px*/
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-variant: normal;
+	margin:0px;
+	padding:13px;
+	color:#000;
+	letter-spacing: 0.12em;
+	word-spacing: 0.1em;
+	line-height: 1.4em;
+}

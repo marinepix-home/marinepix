@@ -1,0 +1,235 @@
+@import "cssreset.css";
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(http://fonts.googleapis.com/css?family=Rosario|Overlock|Buda:300);
+ @charset "utf-8";
+@font-face {
+	font-family:My Custom Font;
+	src:url(http://www.marinepix.co.uk/resources/font/Soljik-Dambaek.eot);
+}
+@font-face {
+	font-family:My Custom Font;
+	src:url(http://www.marinepix.co.uk/resources/font/Soljik-Dambaek.ttf) format("truetype");
+}
+body {
+	line-height:1;
+}
+.whitebg {
+	/*background-color:rgba(255,255,255,0.8);*/
+	text-decoration:none;
+}
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-variant: small-caps;
+	margin:0px;
+	padding:0px;
+	color:#888;
+	width:100%;
+}
+a:hover {
+	color:#000066;
+	background-image: none;/*url(http://www.marinepix.co.uk/images/menufade4.png);*/
+}
+.menusul {
+	display:inline-block;
+	margin:0px;
+	padding:0px;
+	padding-left:70px;
+	padding-bottom:0px;
+	background-color:transparent;
+	list-style-type:none;
+}
+.menusulli {
+	list-style-position:inside;
+	text-align:left;
+	padding-left:12px;
+	padding-right:12px;
+	padding-bottom:3px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-top:40px; /*reduce this when menu is pushed to 2nd line (<1000)*/
+	display:inline-block;
+	font-weight:normal;
+	font-variant:small-caps;
+}
+/*a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-variant: small-caps;
+	margin:0px;
+	padding:0px;
+	color:#888;
+	width:100%;
+}
+a:hover {
+	color:#000066;
+	background-image: none;//url(http://www.marinepix.co.uk/images/menufade4.png);//
+}*/
+.menusulli a:hover {
+ display:;
+	background-color:rgba(240,240,240,1);
+	color:rgba(10,10,10,1);
+}
+/*.menusul a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-variant: small-caps;
+	margin:0px;
+	padding:0px;
+	color:#888;
+/*	width:100%;
+}*/
+/*a:hover {
+	color:#000066;
+	background-image: none;//url(http://www.marinepix.co.uk/images/menufade4.png);//
+}
+*/
+.banneripad {
+	padding-left:0.1em;
+	padding-top:0.2em;
+}
+.scriptfont {
+	font-family: "My Custom Font", 'Rosario', sans-serif;
+	text-transform:capitalize;
+	font-variant:normal;
+	font-size:4em;
+	/*color:#4376B9; lighter*/
+	color:#1C3075;/*darker*/
+	font-weight:normal;
+	letter-spacing:0.08em;
+	text-shadow:4px 4px 4px #aaa;
+}
+.banneripad:first-letter {
+	font-size:120%;
+}
+.bannerline2 {
+	/*font-family::Verdana*/
+	text-transform:capitalize;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-variant: small-caps;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	font-family: 'Poiret One', cursive;
+	letter-spacing:0.05em !important;
+	padding-bottom:0.1em !important;
+	padding-top:1.5em;
+	padding-left:0.5em;
+	text-shadow:4px 4px 4px #bbb;
+	/*	border-left:3px solid #BAD0E6; lighter*/
+	border-left:1px solid #2C3075; /*darker*/
+	font-size:24px;
+	color:#2c3075;
+}
+a:hover {
+	color:#000066;
+	background-image: none;/*url(http://www.marinepix.co.uk/images/menufade4.png);*/
+}
+.banneripad3:first-letter {
+	font-size:120%;
+}
+ @media all and (max-width: 1020px) {
+.menusul {
+	padding-left:40px;
+}
+.menusulli {
+	padding-top:20px;
+	padding-bottom:20px;
+}
+}
+ @media all and (max-width: 550px) {
+.scriptfont {
+	font-size:46px;
+	letter-spacing:0.02em;
+}
+.banneripad {
+	padding-left:0.05em;
+	padding-top:0.08em;
+}
+.bannerline2 {
+	letter-spacing:0.01em;
+	padding-top:0.6em;
+	padding-left:0.2em;
+	font-size:1em;
+}
+/*.menusulli {	font-size:1.2em; width:100%; } including this creates a scroll-bar on desktop */
+	 .menusul {
+	padding-left:0px;
+	display:block;
+}
+.menusulli {
+	padding-top:5px;
+	padding-bottom:10px;
+	display:block;
+	font-size:0.8em;
+	letter-spacing:0.08em;
+}
+}
+
+ /*iphone2-4 landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) {
+.banneripad {
+	font-size:3em;
+}
+.banneripad3 {
+	font-size:2em;
+}
+.menusul {
+	padding-left:0px;
+}
+.menusulli {
+	padding-top:5px;
+	padding-bottom:10px;
+	display:inline-block;
+	font-size:1.6em;
+	letter-spacing:0.1em;
+}
+.abscentre {
+	position:relative;
+	width: 100%;
+	height:100%;
+	overflow:hidden;
+	min-width:500px;
+	background-color:#ffffff;
+}
+}
+
+ /*iphone2-4 portrait */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) {
+.banneripad {
+	font-size:2.5em;
+}
+.banneripad3 {
+	font-size:1em;
+}
+.menusul {
+	padding-left:0px;
+}
+.menusulli {
+	padding-top:5px;
+	padding-bottom:2px;
+	width:100%;
+	font-size:1em;
+	letter-spacing:0.18em;
+}
+.abscentre {
+	position:relative;
+	width: 100%;
+	height:100%;
+	overflow:hidden;
+	min-width:500px;
+	background-color:#ffffff;
+}
+}

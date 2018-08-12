@@ -1,0 +1,29 @@
+.contents {
+	font-family: "Overlock";
+	font-size:0.90em;
+	letter-spacing:0.08em;
+	word-spacing:0.1em;
+	font-style:normal;
+	font-weight:normal;
+	line-height:1.2em;
+	margin-left:10%;
+}
+
+
+.contents p {
+	font-variant:small-caps;
+	color:#0000FF;
+	margin-top:10px;
+	line-height:1.2em;
+	font-weight:bold;
+	word-spacing:0.15em;
+	letter-spacing:0.15em;
+	font-size:1em;
+}
+
+.contents li {
+	list-style:circle;
+	margin-left:25px;
+
+	
+}

@@ -1,0 +1,11 @@
+<nav class="nav right">
+  <ul class="menusul">
+    <li class="menusulli current"><a></a></li>
+    <li class="menusulli"><a href="/gallery.shtml">Galleries</a></li>
+    <li class="menusulli"><a href="/courses.shtml">Courses</a></li>
+    <li class="menusulli"><a href="/prints.shtml">Prints</a></li>
+    <li class="menusulli"><a href="/links.shtml">Links</a></li>
+    <li class="menusulli"><a href="/contact.shtml">Contact</a></li>
+    <li class="menusulli"><a href="/blog.shtml">Blog</a></li>
+  </ul>
+</nav>

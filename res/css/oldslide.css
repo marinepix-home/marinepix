@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+#slideshow {
+	margin: 0px; 
+	position: relative; 
+	width:800px; 
+	height: 650px; 
+	padding: 0px; 
+}
+		
+@media screen and (max-width: 1024px) {
+#slideshow {
+	width:800px;
+	overflow:hidden;
+}
+		
+#slideshow > div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow:hidden;
+}

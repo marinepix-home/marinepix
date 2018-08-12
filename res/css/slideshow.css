@@ -1,0 +1,802 @@
+@import "cssreset.css";
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(http://fonts.googleapis.com/css?family=Rosario|Overlock|Buda:300);
+
+@charset "utf-8";
+  
+@font-face {
+	font-family:My Custom Font;
+	src:url(http://www.marinepix.co.uk/resources/font/Soljik-Dambaek.eot);
+}
+@font-face {
+	font-family:My Custom Font;
+	src:url(http://www.marinepix.co.uk/resources/font/Soljik-Dambaek.ttf) format("truetype");
+}
+
+html {
+	margin:0px;
+	padding:0px;
+}
+body {
+	margin:0px;
+	padding:0px;
+	margin-right:0px;
+	}
+.gradient {
+	background-image: -ms-radial-gradient(center, circle farthest-side, rgba(160,185,235,0.2) 0%, rgba(255,255,255,0) 150%);
+	background-image: -moz-radial-gradient(center, circle farthest-side, rgba(160,185,235,0.2) 0%, rgba(255,255,255,0) 150%);
+	background-image: -o-radial-gradient(center, circle farthest-side, rgba(160,185,235,0.2) 0%, rgba(255,255,255,0) 150%);
+	background-image: -webkit-gradient(radial, center center, 0, center center, 487, color-stop(0, rgba(160,185,235,0.2)), color-stop(1.5, rgba(255,255,255,0)));
+	background-image: -webkit-radial-gradient(center, circle farthest-side, rgba(160,185,235,0.2) 0%, rgba(255,255,255,0) 150%);
+	background-image: radial-gradient(circle farthest-side at center, rgba(160,185,235,0.2) 0%, rgba(255,255,255,0) 150%);
+}
+.captiongradient {
+	background: -moz-radial-gradient(center, ellipse cover, rgba(131,211,139,1) 0%, rgba(131,211,139,0) 71%, rgba(131,211,139,0) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(131,211,139,1)), color-stop(71%, rgba(131,211,139,0)), color-stop(100%, rgba(131,211,139,0)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(131,211,139,1) 0%, rgba(131,211,139,0) 71%, rgba(131,211,139,0) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(131,211,139,1) 0%, rgba(131,211,139,0) 71%, rgba(131,211,139,0) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(131,211,139,1) 0%, rgba(131,211,139,0) 71%, rgba(131,211,139,0) 100%);
+	background: radial-gradient(ellipse at center, rgba(131,211,139,1) 0%, rgba(131,211,139,0) 71%, rgba(131,211,139,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#83d38b', endColorstr='#0083d38b', GradientType=1 );
+}
+.banner {
+	width:25%;
+	height:650px;
+	display:inline;
+	margin:0px;
+	padding:0px;
+	float:left;
+}
+.abscentre {
+	margin-left:auto;
+	margin-right:auto;
+	padding:0px;
+	top: 0px;
+	bottom:0px;
+	width: 100%; /*fixed*/
+	max-height:80%;	 /*proportion of window*/
+	background-color:transparent;/*replacements 311213*/
+	min-width:320px;
+}
+
+.mainmenu {
+	display:inline-block;
+	font-size:0.9em;
+	letter-spacing:0.1em;
+}
+
+.whitebg {
+	background-color:rgba(255,255,255,0.8);
+}
+.mainbody {
+	overflow:visible;
+	display:block;
+}
+.titlebar {
+	display:inline-block;
+	}
+.menutop {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-variant: small-caps;
+	background-color:transparent;
+	margin:0px;
+	padding:0px;
+}
+.menusdiv {
+	display:inline;
+}
+
+ @media all and (max-width: 1000px) {
+	 .menusdiv {
+		 display:inline-block;         /*looking good 1/11/15*/
+		 }
+ }
+
+.menusul {
+	display:inline-block;
+	margin:0px;
+	padding:0px;
+	padding-left:70px;
+	padding-bottom:0px;
+	background-color:transparent;
+	list-style-type:none;
+}
+
+.menusulli {
+	list-style-position:inside;
+	text-align:left;
+	padding-left:12px;
+	padding-right:12px;
+	padding-bottom:3px;
+	padding-top:20px; 
+	padding-bottom:20px;
+	padding-top:40px; /*reduce this when menu is pushed to 2nd line (<1000)*/
+	display:inline-block;
+	font-weight:normal;
+	font-variant:small-caps;
+}
+
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-variant: small-caps;
+	margin:0px;
+	padding:0px;
+	color:#888;
+	width:100%;
+}
+a:hover {
+	color:#000066;
+	background-image: none;/*url(http://www.marinepix.co.uk/images/menufade4.png);*/
+}
+.menusulli a:hover {
+ display:;
+	background-color:rgba(240,240,240,1);
+	color:rgba(10,10,10,1);
+}
+img {
+	padding:0px; /*theres a gap above the image so this helps remove it*/
+	margin:0px;
+/*	border:medium solid black;
+	box-shadow: 10px 10px 5px #888;*/
+}
+
+/* shadow behind gallery images*/
+.shadow {
+	padding-bottom:0px;
+	margin-top:-3px;
+    margin-left:-3px border:thin solid white;
+	box-shadow: 3px 8px 5px #888;
+}
+
+#slideshow {
+margin-left:auto;
+margin-right:auto;
+position: relative;
+width:80%; 
+}
+
+#slideshow > div {
+width:100%;
+overflow:hidden;
+}
+
+#slideshow > div > img {
+width:100%;
+overflow:hidden;
+}
+
+#printcontent {
+	margin: 0px;
+	position: relative;
+	padding: 0px;
+	font-family: "Overlock"; /*google*/
+	overflow:visible;
+	margin-left:auto;
+	margin-right:auto;
+}
+#printcontent p {
+	font-size: 0.9em;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0.12em;
+	word-spacing: 0.1em;
+	line-height: 1.4em;
+	list-style-type:none;
+}
+#printcontent hy2 {
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0.12em;
+	word-spacing: 0.1em;
+	line-height: 0.5em;
+}
+#printcontent a {
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0.12em;
+	word-spacing: 0.1em;
+	line-height: 0.5em;
+}
+#printcontent h4 {
+	font-size: 1.1em;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0.010em;
+	word-spacing: 0.1em;
+	line-height: 0.5em;
+	margin-top:1em;
+	margin-left:1em;
+}
+#printcontent > div {
+	position: absolute;
+	top: -2px;
+	left: 14px;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+.clearline {
+	line-height:0px;
+}
+.breakline {
+	clear: both;
+	float: none;
+}
+.printblockmain {
+	float:left;
+	border:solid 1px #CCC;
+	margin:5px;
+	width:23%;
+	padding:0px;
+	opacity:1;
+	filter:alpha(opacity=100); /*ie8 and earlier */
+	margin-top:15px;
+	text-transform: capitalize;
+	font-variant: small-caps;
+}
+.printblockmain:hover {
+	opacity:0.4;
+	filter:alpha(opacity=40);
+}
+.printblockhead {
+	background-image:url(http://www.marinepix.co.uk/images/headerbackground.jpg);
+	background-repeat: repeat-x;
+	height:37px;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	top:0px;
+	display:inline-block;
+}
+.printblockhead > h2 {
+	padding-left: 14px;
+	padding-top: 10px;
+	font-size:16px;
+	font-family: "Overlock"; /*google*/
+	color:#000;
+}
+
+.printblockimage > img {
+	height:134px;
+	max-width:100%;
+	text-decoration:none;
+	border:none;
+}
+.printblocktext { /*very specifically coded due to using an a-ref for the whole div*/
+	font-variant:normal;
+	font-weight: 400;
+	font-size: 0.75em; 
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: capitalize;
+	/*font-variant: small-caps;*/
+	margin:0px;
+	padding:13px;
+	color:#000;
+	letter-spacing: 0.12em;
+	word-spacing: 0.1em;
+	line-height: 1.4em;
+}
+.columns > p {
+	display:block;
+	width:23%;
+	float:left;
+}
+.printblockmain .description {
+	font-size:0.8em;
+	color:#333;
+	margin-top:15px;
+}
+.description {
+	text-transform:none;
+}
+.galleryblock {
+	display:block;
+	margin:5px;
+	padding:5px;
+	width:120px;
+	height:130px;
+	background-color:#FFFFFE;
+	border: thin solid black;
+	overflow:auto;
+	float:left; /*ensures gallery boxes are lined up on ipad */
+	box-shadow:2px 2px 2px 1px #ddd;
+	text-transform:none;
+	font-variant:normal;
+	font-size:0.9em;
+	line-height:1.2em;
+	letter-spacing:0.1em;
+	color:#333;
+}
+
+#gallerycontent > a:hover {
+	background-image:none;
+	opacity:1;
+	filter:alpha(opacity=100); /*ie8 and earlier */
+}
+#gallerycontent > a {
+	background-image:none;
+	opacity:0.9;
+	filter:alpha(opacity=90); /*ie8 and earlier */
+}
+
+.banneripad {
+	padding-left:0.1em;
+	padding-top:0.2em;
+}
+.scriptfont {
+	font-family: "My Custom Font", 'Rosario', sans-serif;
+	text-transform:capitalize;
+	font-variant:normal;
+	font-size:4em;
+	/*color:#4376B9; lighter*/
+	color:#1C3075;/*darker*/
+	font-weight:normal;
+	letter-spacing:0.08em;
+	text-shadow:4px 4px 4px #aaa;
+}
+.banneripad:first-letter {
+	font-size:120%;
+}
+.bannerline2 {
+	font-family: 'Poiret One', cursive;
+	letter-spacing:0.05em !important;
+	padding-bottom:0.1em !important;
+	padding-top:1.5em;
+	padding-left:0.5em;
+	text-shadow:4px 4px 4px #bbb;
+/*	border-left:3px solid #BAD0E6; lighter*/
+	border-left:1px solid #2C3075; /*darker*/
+	font-size:24px;
+	color:#2c3075;	
+}
+
+.banneripad3:first-letter {
+	font-size:120%;
+}
+ 
+.banner {
+	display:inline;
+}
+/* Fixing the height here creates a scrollbar when reqd. 
+problem is visibility of box-shadow
+also, scroll-bar appears for the bottom gallery elements!
+Think the height fixity should be part of a parent block like abscentre but that already has a height so not sure why it doesnt work
+Perhaps too many div elements involved - needs simplifying*/
+#linkcontent, #gallerycontent, #blogcontent {
+	position: relative;
+	overflow:visible;
+	padding-right:10px;
+	padding-left:10px;
+}
+#blogcontent {
+	width:805px !important; /* 74% is approx the same width*/
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+#linkcontent {
+	width:805px!important;
+}
+#blogcontent img {
+	border:solid medium white;
+	box-shadow:2px 2px 3px 3px #ddd;
+}
+#blogcontent a {
+	background-image:none;
+	color:#06C;
+}
+.linkblock, .galleryblock {
+	display:block;
+	padding:5px;
+	margin:5px;
+	min-height:150px;
+	background-color:#FFFFFE;
+	border: thin solid #aaa;
+	overflow:visible; /*makes as many boxes as possible fit on a line*/
+	float:left; /*ensures gallery boxes are lined up on ipad */
+	box-shadow:2px 2px 2px 1px #ddd;
+	text-transform:none;
+	font-variant:normal;
+	font-size:0.7em;
+	line-height:1.2em;
+	letter-spacing:0.1em;
+	color:#333;
+	width:175px;
+}
+.linkblock {
+	min-height:220px;
+}
+
+.linkblock div {margin:auto;}
+
+/* not a great resizing method but I've so few amazon links, it's not gonna make much difference i hope*/
+.amazonimg {
+	max-height:none !important;
+	max-width:100% !important;
+	width:auto !important;
+	text-wrap:none;
+}
+
+a.linkblock, a.galleryblock {
+	background-image:none;
+	opacity:0.9;
+	filter:alpha(opacity=90); /*ie8 and earlier */
+}
+a.linkblock:hover, a.galleryblock:hover {
+	opacity:1;
+	filter:alpha(opacity=100); /*ie8 and earlier */
+	border-color:#888;
+	box-shadow:3px 3px 2px 1px #bbb;
+	margin-left:4px;
+	margin-top:4px;
+	padding-right:6px;
+	padding-bottom:6px;
+}
+.linkblock img, .galleryblock img {
+	width:100%;
+	max-height:100px;
+	float:none;
+	margin-bottom:8px;
+}
+.galleryblock img {
+	max-height:120px;
+}
+.linkblocksmall {
+	width:auto;
+	height:auto;
+	float:none;
+}
+.linkblocklarge {
+	width:570px !important;
+	float:left;
+	border: solid thin #888;
+}
+.linkblocklarge:hover {
+	opacity:1;
+	filter:alpha(opacity=100); /*ie8 and earlier */
+	border-color:#888;
+	box-shadow:3px 3px 2px 1px #bbb;
+	margin-left:4px;
+	margin-top:4px;
+	padding-right:6px;
+	padding-bottom:6px;
+}
+.linkblock:hover, .galleryblock:hover {
+	opacity:1;
+	filter:alpha(opacity=100); /*ie8 and earlier */
+	border-color:#888;
+	box-shadow:3px 3px 2px 1px #bbb;
+	margin-left:4px;
+	margin-top:4px;
+	padding-right:6px;
+	padding-bottom:6px;
+}
+#contactcontent {
+	margin: 0px;
+	width:790px;
+	height: 640px;
+	padding:10px 0 0 10px;
+	font-family: "Overlock"; /*google*/
+	float:left;
+	overflow:auto;
+}
+#contactcontent li {
+	display:block;
+	width:inherit; 
+}
+
+#contactcontent ul li {
+	list-style-position:outside !important;
+	text-align:left;
+	padding:inherit;
+	display:block;
+	}
+#contactcontent > p {
+	line-height:1.6;
+	text-align:justify;
+	word-spacing:0.1em
+}
+#contactcontent > h3 {
+	font-size:2em;
+	line-height:1.6;
+	letter-spacing:0.12em;
+	word-spacing:0.1em;
+	font-family: Verdana, Geneva, sans-serif;
+}
+a {
+	font-family: Verdana, Geneva, sans-serif;
+	text-decoration: none;
+	font-style: normal;
+	font-weight:normal;
+}
+a:link {
+	color:#06C;
+}
+a:visited {
+	color: #06C;
+}
+a:hover {
+	color: #000000;
+}
+.titlebar:hover {
+	font-weight:normal;
+	color: #06C;
+}
+/*blog*/	
+.date {
+	font-size:12px;
+	color:#888;
+	text-align:right;
+}
+.blogtextleft, .blogtextright, .blogtextleft a, .blogtextright a {
+	font-family: overlock, sans-serif;
+	font-size:14px;
+	line-height: 150%;
+	letter-spacing: 150%;
+	word-spacing: 150%;
+}
+.blogtextleft {
+	margin-left:40px;
+	margin-right:10px;
+}
+.blogtextright {
+	margin-left:10px;
+	margin-right:40px;
+}
+.blogh1 {
+	font-size:16px;
+	margin-bottom:5px;
+}
+.blogtextleft a:hover, .blogtextright a:hover {
+	color:#FF9 !important;
+	font-size:14px!important;
+	font-weight:normal !important;
+}
+/*gallery page stuff*/
+.detailNav {
+	margin: 0px auto;
+	width:145px;
+}
+#navleft:hover {
+	display:inline-block;
+	background-image:none;
+}
+#navup:hover {
+	display:inline-block;
+	background-image:none;
+}
+#navright:hover {
+	display:inline-block;
+	background-image:none;
+}
+.detailText {
+	color: #666666;
+	background-color: transparent;
+	font-size:1em !important;
+	font-family:Georgia, Verdana, Geneva, sans-serif;
+	letter-spacing:0.1em;
+	line-height:1.1em;
+	/*text-align:center;*/
+}
+
+#detailCaption {
+	font-variant:small-caps;
+	text-transform: capitalize;
+}
+.buybutton {
+	box-shadow: 2px 2px 5px #888; 
+	border-radius:25px;
+	border:thin solid #69F; 
+	padding:3px 10px; 
+	text-transform:none;
+	font-variant:normal;
+	float:right; 
+	width:auto;
+	color:#69F !important;
+	display:none !important; /*dont display the buy button yet - it doesnt work fully */
+}
+
+.buybutton:hover{
+	box-shadow: 2px 2px 4px #AAA; 
+	border-radius:25px;
+	border:thin solid #06C; 
+	padding:3px 10px; 
+	text-transform:none;
+	font-variant:normal;
+	float:right; 
+	width:auto;
+	color:#06C !important;
+}
+
+
+
+a:hover {
+	background-image:none;
+}
+ 
+/*@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)  {
+	.scriptfont {font-size:32px;letter-spacing:0.07em;}
+	.banneripad {padding-left:0.04em;padding-top:0.1em;}
+	.bannerline2 {letter-spacing:0.01em;padding-top:0.6em;padding-left:0.3em; font-size:12px;}
+	 .menusul {padding-left:8px;}
+	 .menusulli {padding-top:8px; padding-bottom:15px;}
+	.mainmenu {	display:inline-block; font-size:0.7em; letter-spacing:0.07em;}
+}*/
+
+ @media all and (max-width: 1020px) {
+	 .menusul {padding-left:40px;}
+	 .menusulli {
+		padding-top:20px; 
+		padding-bottom:20px;
+	 }
+ }
+/* 
+ @media all and (max-width: 800px) {
+	 .mainimageholder {display:none;}
+	 .slidercontrol {display:none;}
+	 .mediachoice {}
+ }*/
+
+ @media all and (max-width: 550px) {
+	.scriptfont {font-size:46px;letter-spacing:0.02em;}
+	.banneripad {padding-left:0.05em;padding-top:0.08em;}
+	.bannerline2 {letter-spacing:0.01em;padding-top:0.6em;padding-left:0.2em; font-size:1em;}
+	/*.menusulli {	font-size:1.2em; width:100%; } including this creates a scroll-bar on desktop */
+	 .menusul {padding-left:0px; display:block;}
+	 .menusulli {padding-top:5px; padding-bottom:10px;display:block;font-size:0.8em;letter-spacing:0.08em;}
+	}
+ 
+/* ALL iPads in landscape */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { /* STYLES GO HERE */}
+
+/* ALL iPads in portrait */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { /* STYLES GO HERE */ }
+
+/*Alternatively....*/
+/*Retina iPad in landscape (ipad 3 & 4)*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2) { /* STYLES GO HERE */}
+
+/*Retina iPad in portrait (ipad 3 & 4)*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2) { /* STYLES GO HERE */ }
+
+/*iPad 1,2, mini in landscape*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1)  { /* STYLES GO HERE */}
+
+/*iPad 1,2, mini in portrait*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1)  { /* STYLES GO HERE */ }
+
+/*iPhone 6 in landscape*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) { /* STYLES GO HERE */}
+
+/*iPhone 6 in portrait*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { /* STYLES GO HERE */ }
+
+/*iPhone 6 Plus in landscape*/
+@media only screen 
+and (min-device-width : 540px) 
+and (max-device-width : 960px) 
+and (orientation : landscape) { /* STYLES GO HERE */}
+
+/*iPhone 6 Plus in portrait*/
+@media only screen 
+and (min-device-width : 540px) 
+and (max-device-width : 960px) 
+and (orientation : portrait) { /* STYLES GO HERE */ }
+
+/* iPhone 5 & 5S in portrait & landscape*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+}
+/*iPhone 5 & 5S in landscape*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) {
+}
+ /*iphone2-4 landscape */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+and (orientation : landscape) {
+	.banneripad {font-size:3em;}
+	.banneripad3 {font-size:2em;}
+	 .menusul {padding-left:0px;}
+	 .menusulli {padding-top:5px; padding-bottom:10px;display:inline-block;font-size:1.6em;letter-spacing:0.1em;}
+	 .abscentre {
+	position:relative;
+	width: 100%;
+	height:100%;
+	overflow:hidden;
+	min-width:500px;
+	background-color:#ffffff;
+}
+.banner {
+	display:none;
+	width:20%;
+}
+
+#slideshow {
+	width:80%;
+	overflow:hidden;
+}
+a {
+	font-size:1.2em;
+}
+#gallerycontent a {
+	font-size:0.8em;
+}
+}
+ /*iphone2-4 portrait */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+and (orientation : portrait) {
+.banneripad {font-size:2.5em;}
+.banneripad3 {font-size:1em;}
+	 .menusul {padding-left:0px;}
+	 .menusulli {padding-top:5px; padding-bottom:2px;width:100%;font-size:1em;letter-spacing:0.18em;}
+	 .abscentre {
+	position:relative;
+	width: 100%;
+	height:100%;
+	overflow:hidden;
+	min-width:500px;
+	background-color:#ffffff;
+}
+.banner {
+	display:none;
+	width:20%;
+}
+
+#slideshow {
+	width:80%;
+	overflow:hidden;
+}
+a {
+	font-size:1.2em;
+}
+#gallerycontent a {
+	font-size:0.8em;
+}
+ }
